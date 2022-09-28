@@ -3,6 +3,26 @@
     --ps_dark: #363636;
     --ps_primary_light: #2D64E6;
     --ps_primary: #00439C;
-    --ps_danger: #CD3D0F;
-    
+    --ps_danger: #CD3D0F; 
+}
+
+
+/* debug */
+
+.debug header{
+    height: 80px;
+    background-color: aquamarine;
+}
+.debug .jumbotron{
+    height: 500px;
+    background-color: black;
+}
+.debug .album_images{
+    height: 250px;
+    background-color: bisque;
+}
+.debug [class^="col"]{
+    height: 150px;
+    background-color: violet;
+    border: 1px solid black;
 }
