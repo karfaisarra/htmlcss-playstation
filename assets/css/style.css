@@ -1,3 +1,4 @@
+/*Utilites*/
 :root{
     --ps_darker: #000000;
     --ps_dark: #363636;
@@ -5,14 +6,20 @@
     --ps_primary: #00439C;
     --ps_danger: #CD3D0F; 
 }
+img{
+   
+}
 
-
+/* header */
+header .header_top{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--ps_darker);
+    padding: 1rem;
+}
 /* debug */
 
-.debug header{
-    height: 80px;
-    background-color: aquamarine;
-}
 .debug .jumbotron{
     height: 500px;
     background-color: black;
@@ -20,7 +27,7 @@
 .debug .album_images{
     background-color: bisque;
 }
-.debug [class^="col"]{
+.debu [class^="col"]{
     height: 150px;
     background-color: violet;
     border: 1px solid black;
