@@ -6,6 +6,9 @@
     --ps_primary: #00439C;
     --ps_danger: #CD3D0F; 
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 img{
    max-width: 100%;
 }
@@ -15,6 +18,21 @@ img{
 }
 .height{
     height: 100%;
+}
+.p_blue{
+    font-size: 9px;
+    color: var(--ps_primary_light);
+    font-weight: bold;    
+}
+.subtitle{
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+
 }
 /* header */
 header .header_top{
