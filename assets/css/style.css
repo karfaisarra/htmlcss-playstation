@@ -18,11 +18,25 @@
     background-color: black;
 }
 .debug .album_images{
-    height: 250px;
     background-color: bisque;
 }
 .debug [class^="col"]{
     height: 150px;
     background-color: violet;
     border: 1px solid black;
+}
+.debug .takes_two{
+    height: 500px;
+    background-color: red;
+}
+.debug .new_releasefs{
+    background-color: black;
+}
+.debug .playstation_plus{
+    height: 500px;
+    background-color: yellowgreen; 
+}
+.debug .playstation_now{
+    height: 500px;
+    background-color: yellow;
 }
