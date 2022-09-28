@@ -7,9 +7,15 @@
     --ps_danger: #CD3D0F; 
 }
 img{
-   
+   max-width: 100%;
 }
-
+.container_small{
+    width: 20%;
+    align-self:flex-end;
+}
+.height{
+    height: 100%;
+}
 /* header */
 header .header_top{
     display: flex;
@@ -18,12 +24,18 @@ header .header_top{
     background-color: var(--ps_darker);
     padding: 1rem;
 }
+/* end_header */
+
+/* main */
+/* jumbotron */
+.jumbotron{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1000px;
+}
 /* debug */
 
-.debug .jumbotron{
-    height: 500px;
-    background-color: black;
-}
 .debug .album_images{
     background-color: bisque;
 }
@@ -53,3 +65,4 @@ header .header_top{
 .debug footer [class^="col-"]{
     background-color: bisque;
 }
+/* Responsive */
