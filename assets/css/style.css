@@ -40,3 +40,9 @@
     height: 500px;
     background-color: yellow;
 }
+.debug footer{
+    background-color: gray;
+}
+.debug footer [class^="col-"]{
+    background-color: bisque;
+}
