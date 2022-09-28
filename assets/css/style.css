@@ -36,10 +36,6 @@ header .header_top{
     height: 800px;
 }
 /* debug */
-
-.debug .album_images{
-    background-color: bisque;
-}
 .debu [class^="col"]{
     height: 150px;
     background-color: violet;
