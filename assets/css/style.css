@@ -5,12 +5,20 @@
     --ps_primary_light: #2D64E6;
     --ps_primary: #00439C;
     --ps_danger: #CD3D0F; 
+    --ps_gray: #BEBCBB;
+    --ps_btn_light: #D9DADC;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .bg_dark{
     background-color: var(--ps_dark);
+}
+.bg_gray{
+    background-color: var(--ps_gray);
+}
+.bg_btn_light{
+    background-color: var(--ps_btn_light);
 }
 img{
    max-width: 100%;
@@ -83,7 +91,20 @@ header .header_top{
 }
 /* end_takes_two */
 
+/* new_releasefs */ 
+/* end_new_releasefs */ 
 
+/* playstation_4 */
+/* end_playstation_4 */
+
+/* playstation_plus */
+.playstation_plus{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+/* end_playstation_plus */
 
 /* debug */
 .debu [class^="col"]{
@@ -92,10 +113,6 @@ header .header_top{
     border: 1px solid black;
 }
 
-.debug .playstation_plus{
-    height: 500px;
-    background-color: yellowgreen; 
-}
 .debug .playstation_now{
     height: 500px;
     background-color: yellow;
