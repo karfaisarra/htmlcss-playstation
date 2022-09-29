@@ -118,19 +118,30 @@ header .header_top{
 
 /* playstation_now */
 .playstation_now{
-    height: 800px;
-}
-.playstation_now .cover_section{
-    width: 50%;
-    position: relative;
-    left: 45%;
-}
-.playstation_now .container-fluid .text_playstation_now{
-    position: relative;
-    bottom: 600px; 
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 /* end_playstation_now */
 
+/* footer */
+.fs_footer{
+    font-size: 10px;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    padding-bottom: 0.5rem;
+}
+footer a{
+    color: white;
+}
+footer li a{
+    text-decoration: none;
+}
+/* end_footer */
 /* Responsive */
 @media screen and (max-width: 768px) {
     .container_small{
