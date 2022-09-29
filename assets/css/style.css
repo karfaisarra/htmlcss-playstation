@@ -53,15 +53,31 @@ header .header_top{
     background-position: center;
     height: 800px;
 }
+/* end_jumbotron */
+
+/* album_images */
+/* end_album_images */
+
+/* playstation_5 */
+/* end_playstation_5 */
+
+/* takes_two */
+.takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+}
+/* end_takes_two */
+
+
+
 /* debug */
 .debu [class^="col"]{
     height: 150px;
     background-color: violet;
     border: 1px solid black;
-}
-.debug .takes_two{
-    height: 500px;
-    background-color: red;
 }
 .debug .new_releasefs{
     background-color: black;
