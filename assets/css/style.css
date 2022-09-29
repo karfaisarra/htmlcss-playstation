@@ -24,6 +24,9 @@ body{
 .bg_primary_dark{
     background-color: var(--ps_primary_dark);
 }
+.bg_primary{
+    background-color: var(--ps_primary);
+}
 img{
    max-width: 100%;
 }
@@ -66,6 +69,7 @@ header .header_top{
     background-color: var(--ps_darker);
     padding: 1rem;
 }
+
 /* end_header */
 
 /* main */
@@ -127,19 +131,6 @@ header .header_top{
 }
 /* end_playstation_now */
 
-/* debug */
-.debu [class^="col"]{
-    height: 150px;
-    background-color: violet;
-    border: 1px solid black;
-}
-
-.debug footer{
-    background-color: gray;
-}
-.debug footer [class^="col-"]{
-    background-color: bisque;
-}
 /* Responsive */
 @media screen and (max-width: 768px) {
     .container_small{
