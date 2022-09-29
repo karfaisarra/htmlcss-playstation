@@ -4,6 +4,7 @@
     --ps_dark: #1F1F1F;
     --ps_primary_light: #2D64E6;
     --ps_primary: #00439C;
+    --ps_primary_dark: #161C3B;
     --ps_danger: #CD3D0F; 
     --ps_gray: #BEBCBB;
     --ps_btn_light: #D9DADC;
@@ -19,6 +20,9 @@ body{
 }
 .bg_btn_light{
     background-color: var(--ps_btn_light);
+}
+.bg_primary_dark{
+    background-color: var(--ps_primary_dark);
 }
 img{
    max-width: 100%;
@@ -106,6 +110,23 @@ header .header_top{
 }
 /* end_playstation_plus */
 
+/* playstation_store */
+
+/* playstation_now */
+.playstation_now{
+    height: 800px;
+}
+.playstation_now .cover_section{
+    width: 50%;
+    position: relative;
+    left: 45%;
+}
+.playstation_now .container-fluid .text_playstation_now{
+    position: relative;
+    bottom: 600px; 
+}
+/* end_playstation_now */
+
 /* debug */
 .debu [class^="col"]{
     height: 150px;
@@ -113,10 +134,6 @@ header .header_top{
     border: 1px solid black;
 }
 
-.debug .playstation_now{
-    height: 500px;
-    background-color: yellow;
-}
 .debug footer{
     background-color: gray;
 }
