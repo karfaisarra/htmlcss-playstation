@@ -1,0 +1,151 @@
+/*Utilites*/
+:root{
+    --ps_darker: #000000;
+    --ps_dark: #1F1F1F;
+    --ps_primary_light: #2D64E6;
+    --ps_primary: #00439C;
+    --ps_primary_dark: #161C3B;
+    --ps_danger: #CD3D0F; 
+    --ps_gray: #BEBCBB;
+    --ps_btn_light: #D9DADC;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg_dark{
+    background-color: var(--ps_dark);
+}
+.bg_gray{
+    background-color: var(--ps_gray);
+}
+.bg_btn_light{
+    background-color: var(--ps_btn_light);
+}
+.bg_primary_dark{
+    background-color: var(--ps_primary_dark);
+}
+.bg_primary{
+    background-color: var(--ps_primary);
+}
+img{
+   max-width: 100%;
+}
+.container_small{
+    width: 30%;
+    align-self:flex-end;
+}
+.height{
+    height: 100%;
+}
+.p_blue{
+    font-size: 9px;
+    color: var(--ps_primary_light);
+    font-weight: bold;    
+}
+.subtitle{
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+h3{
+    font-size: 21px;
+    font-weight: bold; 
+}
+h4{
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+/* header */
+header .header_top{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--ps_darker);
+    padding: 1rem;
+}
+
+/* end_header */
+
+/* main */
+/* jumbotron */
+.jumbotron{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+}
+/* end_jumbotron */
+
+/* album_images */
+/* end_album_images */
+
+/* playstation_5 */
+/* end_playstation_5 */
+
+/* takes_two */
+.takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+}
+/* end_takes_two */
+
+/* new_releasefs */ 
+/* end_new_releasefs */ 
+
+/* playstation_4 */
+/* end_playstation_4 */
+
+/* playstation_plus */
+.playstation_plus{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+/* end_playstation_plus */
+
+/* playstation_store */
+/* end_playstation_store */
+
+/* playstation_now */
+.playstation_now{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+/* end_playstation_now */
+
+/* footer */
+.fs_footer{
+    font-size: 10px;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    padding-bottom: 0.5rem;
+}
+footer a{
+    color: white;
+}
+footer li a{
+    text-decoration: none;
+}
+/* end_footer */
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .container_small{
+        width: 70%;
+    }
+}
