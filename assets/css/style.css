@@ -1,13 +1,16 @@
 /*Utilites*/
 :root{
     --ps_darker: #000000;
-    --ps_dark: #363636;
+    --ps_dark: #1F1F1F;
     --ps_primary_light: #2D64E6;
     --ps_primary: #00439C;
     --ps_danger: #CD3D0F; 
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+.bg_dark{
+    background-color: var(--ps_dark);
 }
 img{
    max-width: 100%;
@@ -34,6 +37,15 @@ h2{
     font-weight: bold;
 
 }
+h3{
+    font-size: 21px;
+    font-weight: bold; 
+}
+h4{
+    font-size: 16px;
+    font-weight: bold; 
+}
+
 /* header */
 header .header_top{
     display: flex;
@@ -79,9 +91,7 @@ header .header_top{
     background-color: violet;
     border: 1px solid black;
 }
-.debug .new_releasefs{
-    background-color: black;
-}
+
 .debug .playstation_plus{
     height: 500px;
     background-color: yellowgreen; 
