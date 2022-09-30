@@ -83,10 +83,16 @@ header .header_top{
 /* end_jumbotron */
 
 /* album_images */
+.album_images img:hover {
+    cursor: pointer;
+}
 /* end_album_images */
 
 /* playstation_5 */
-
+.hover_img .col:hover{
+    cursor: pointer;
+    border-bottom: 4px solid var(--ps_primary_light);
+}
 /* end_playstation_5 */
 
 /* takes_two */
@@ -100,6 +106,9 @@ header .header_top{
 /* end_takes_two */
 
 /* new_releasefs */ 
+.new_releasefs img:hover {
+    cursor: pointer;
+}
 /* end_new_releasefs */ 
 
 /* playstation_4 */
@@ -115,6 +124,9 @@ header .header_top{
 /* end_playstation_plus */
 
 /* playstation_store */
+.playstation_store img:hover{
+    cursor: pointer;
+}
 /* end_playstation_store */
 
 /* playstation_now */
@@ -125,6 +137,12 @@ header .header_top{
     background-position: right;
 }
 /* end_playstation_now */
+
+/* social */
+.social img:hover{
+    cursor: pointer;
+}
+/* end_social */
 
 /* footer */
 .fs_footer{
@@ -144,5 +162,8 @@ footer .languge a{
 }
 footer li a{
     text-decoration: none;
+}
+footer a:hover{
+    color: white;
 }
 /* end_footer */
