@@ -89,10 +89,13 @@ header .header_top{
 /* end_album_images */
 
 /* playstation_5 */
-.hover_img .col:hover{
+.hover_img {
+    opacity: 0.5;
+}
+.playstation_5 .col:hover{
     cursor: pointer;
     border-bottom: 4px solid var(--ps_primary_light);
- 
+    opacity: 1;
 }
 
 /* end_playstation_5 */
