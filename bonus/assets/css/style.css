@@ -92,7 +92,9 @@ header .header_top{
 .hover_img .col:hover{
     cursor: pointer;
     border-bottom: 4px solid var(--ps_primary_light);
+ 
 }
+
 /* end_playstation_5 */
 
 /* takes_two */
@@ -112,6 +114,9 @@ header .header_top{
 /* end_new_releasefs */ 
 
 /* playstation_4 */
+.card{
+    position: static;
+}
 /* end_playstation_4 */
 
 /* playstation_plus */
